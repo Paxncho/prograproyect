@@ -1,5 +1,5 @@
-# Para efectos de orden, cada cambio realizado en
-# el proyecto deberá ser registrado en este log.
+# Todos los archivos que están en el repo de GitHub son los que van dentro de la carpeta del proyecto de BlueJ
+# Para efectos de orden, cada cambio realizado en el proyecto deberá ser registrado en este log.
 
     LOG:
 17/09 13:42 Creación del Proyecto - Pencho
