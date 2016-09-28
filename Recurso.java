@@ -101,4 +101,25 @@ public class Recurso
     public Punto obtenerPunto(int index){
         return this.polygon.get(index);
     }
+    
+    /*
+    public boolean tienePoligono()
+    {
+        return this.polygon != null;
+    }
+    
+    public boolean tienePoligono()
+    {
+        return this.polygon.size() != 0;
+    }
+    
+    HashMap<k,v>
+    poligonos.put(e1, p1);
+    Poligono p = poligonos.get(e1);
+    
+    Map
+    x ---> y
+    "Ignacio" ---> Regalo
+    */
+    
 }

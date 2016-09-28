@@ -6,6 +6,7 @@ public class Escena
     private int width;
     private int height;
     private ArrayList<Recurso> resources;
+    //private HashMap<Recurso, Poligono> poligonos;
     
     public Escena(String name, int width, int height){
         this.name = name;
@@ -42,15 +43,24 @@ public class Escena
         this.resources.add(recurso);
     }
     
-    public void eliminarRecurso(int index){
-        this.resources.remove(index);
+    public void eliminarRecurso(String id){
+        for(Recurso existente : this.resources){
+            if(existente.getId() == id){
+                this.resources.remove(existente);
+            }
+        }
     }
     
     public int cantidadRecursos(){
         return this.resources.size();
     }
     
-    public Recurso obtenerRecurso(int index){
-        return this.resources.get(index);
+    public Recurso obtenerRecurso(String id){
+        for(Recurso existente : this.resources){
+            if(existente.getId() == id){
+                return existente;
+            }
+        }
+        return null;
     }
 }
