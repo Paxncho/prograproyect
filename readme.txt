@@ -13,3 +13,4 @@
 29/09 12:49 Creación Metodos totalPoint, addPoint, removePoint en la clase Polygon - Pencho
 29/09 12:51 Eliminación ArrayList de la Clase Resource - Pencho
 29/09 13:01 Añadido el HashMap de Polygons a Scene junto con los metodos addPolygon, hasPolygon, replacePolygon - Pencho
+29/09 16:00 Systema cambiado por World - Will
