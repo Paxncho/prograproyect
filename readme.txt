@@ -8,3 +8,8 @@
 17/09 14:01 Creación Clase Sprite - Pencho
 17/09 14:17 Creación Clase Recurso - Pencho
 17/09 14:26 Creación Clase Escena - Pencho
+28/09 xx:xx Estandarización de Clases - Will
+29/09 12:45 Creación Clase Polygon - Pencho
+29/09 12:49 Creación Metodos totalPoint, addPoint, removePoint en la clase Polygon - Pencho
+29/09 12:51 Eliminación ArrayList de la Clase Resource - Pencho
+29/09 13:01 Añadido el HashMap de Polygons a Scene junto con los metodos addPolygon, hasPolygon, replacePolygon - Pencho

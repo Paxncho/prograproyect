@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Polygon()
+comment1.params=
+comment1.target=int\ totalPoints()
+comment2.params=point
+comment2.target=void\ addPoint(Point)
+comment3.params=point
+comment3.target=boolean\ removePoint(Point)
+numComments=4

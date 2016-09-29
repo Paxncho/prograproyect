@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Scene
 {
@@ -6,13 +7,14 @@ public class Scene
     private int width;
     private int height;
     private ArrayList<Resource> resources;
-    //private HashMap<Recurso, Poligono> poligonos;
+    private HashMap<Resource, Polygon> polygons;
     
     public Scene(String name, int width, int height){
         this.name = name;
         this.width = width;
         this.height = height;
         this.resources = new ArrayList<Resource>();
+        this.polygons = new HashMap<Resource, Polygon>();
     }
     
     public void setName(String name){
@@ -62,5 +64,21 @@ public class Scene
             }
         }
         return null;
+    }
+    
+    public void addPolygon(Resource resource, Polygon polygon){
+        this.polygons.put(resource, polygon);
+    }
+    
+    public boolean hasPolygon(Resource resource){
+        if (polygons.get(resource) != null){
+            return true;
+        }
+        return false;
+    }
+    
+    //Creo que esto puede dar excepción, analizar.
+    public void replacePolygon(Resource resource, Polygon polygon){
+        this.polygons.replace(resource, polygon);
     }
 }

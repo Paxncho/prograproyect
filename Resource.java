@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Resource
 {
     private String id;
@@ -9,7 +7,6 @@ public class Resource
     private int height;
     private int rotationAngle;
     private String tag;
-    private ArrayList<Point> polygon;
     
     public Resource(String id, String spriteId, int x, int y, int width, int height, int rotationAngle, String tag){
         this.id = id;
@@ -19,7 +16,6 @@ public class Resource
         this.height = height;
         this.rotationAngle = rotationAngle;
         this.tag = tag;
-        this.polygon = new ArrayList<Point>();
     }
     
     public void setId(String id){
@@ -86,33 +82,7 @@ public class Resource
         return this.tag;
     }
     
-    public void addPoint(Point point){
-        this.polygon.add(point);
-    }
-    
-    public void removePoint(int index){
-        this.polygon.remove(index);
-    }
-    
-    public int totalPoints(){
-        return this.polygon.size();
-    }
-    
-    public Point getPoint(int index){
-        return this.polygon.get(index);
-    }
-    
-    /*
-    public boolean tienePoligono()
-    {
-        return this.polygon != null;
-    }
-    
-    public boolean tienePoligono()
-    {
-        return this.polygon.size() != 0;
-    }
-    
+    /*    
     HashMap<k,v>
     poligonos.put(e1, p1);
     Poligono p = poligonos.get(e1);
