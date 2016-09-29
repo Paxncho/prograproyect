@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=name\ width\ height
+comment0.target=Scene(java.lang.String,\ int,\ int)
+comment1.params=name
+comment1.target=void\ setName(java.lang.String)
+comment10.params=id
+comment10.target=Resource\ getResource(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=width
+comment3.target=void\ setWidth(int)
+comment4.params=
+comment4.target=int\ getWidth()
+comment5.params=height
+comment5.target=void\ setHeight(int)
+comment6.params=
+comment6.target=int\ getHeight()
+comment7.params=resource
+comment7.target=void\ addResource(Resource)
+comment8.params=id
+comment8.target=void\ removeResource(java.lang.String)
+comment9.params=
+comment9.target=int\ totalResources()
+numComments=11

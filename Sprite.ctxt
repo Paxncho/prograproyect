@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.params=id\ path\ width\ height\ type
-comment0.target=Sprite(java.lang.String,\ java.lang.String,\ int,\ int,\ Tipo)
+comment0.target=Sprite(java.lang.String,\ java.lang.String,\ int,\ int,\ Type)
 comment1.params=id
 comment1.target=void\ setId(java.lang.String)
 comment10.params=
-comment10.target=Tipo\ getType()
+comment10.target=Type\ getType()
 comment2.params=
 comment2.target=java.lang.String\ getId()
 comment3.params=path
@@ -20,5 +20,5 @@ comment7.target=void\ setHeight(int)
 comment8.params=
 comment8.target=int\ getHeight()
 comment9.params=type
-comment9.target=void\ setType(Tipo)
+comment9.target=void\ setType(Type)
 numComments=11

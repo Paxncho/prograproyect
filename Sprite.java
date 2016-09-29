@@ -4,9 +4,9 @@ public class Sprite
     private String path;
     private int width;
     private int height;
-    private Tipo type;
+    private Type type;
     
-    public Sprite(String id, String path, int width, int height, Tipo type){
+    public Sprite(String id, String path, int width, int height, Type type){
         this.id = id;
         this.path = path;
         this.width = width;
@@ -46,11 +46,11 @@ public class Sprite
         return this.height;
     }
     
-    public void setType(Tipo type){
+    public void setType(Type type){
         this.type = type;
     }
     
-    public Tipo getType(){
+    public Type getType(){
         return this.type;
     }
 }
