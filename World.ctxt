@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=World()
+comment1.params=scene
+comment1.target=void\ addScene(Scene)
+comment2.params=name
+comment2.target=void\ removeScene(java.lang.String)
+comment3.params=
+comment3.target=int\ totalScenes()
+comment4.params=name
+comment4.target=Scene\ getScene(java.lang.String)
+numComments=5
